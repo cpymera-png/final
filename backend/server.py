@@ -1,0 +1,141 @@
+"""Ecoandes FastAPI main application."""
+import asyncio
+import logging
+import os
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+from fastapi import FastAPI
+from starlette.middleware.cors import CORSMiddleware
+
+# Ensure local imports work when supervisor starts us with CWD=/app/backend
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from core.auth import hash_password  # noqa: E402
+from core.config import ADMIN_EMAIL, ADMIN_PASSWORD, db  # noqa: E402
+from routes.admin import router as admin_router  # noqa: E402
+from routes.auth import router as auth_router  # noqa: E402
+from routes.orders import router as orders_router  # noqa: E402
+from routes.payments import router as payments_router, webhook_router  # noqa: E402
+from routes.products import router as products_router  # noqa: E402
+from routes.reviews import router as reviews_router  # noqa: E402
+from core.wp_importer import parse_wordpress_xml  # noqa: E402
+
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger("ecoandes")
+
+app = FastAPI(title="Ecoandes API", version="1.0.0")
+
+
+@app.get("/api")
+async def api_root():
+    return {"message": "Ecoandes API", "status": "ok"}
+
+
+@app.get("/api/health")
+async def health():
+    return {"status": "ok", "ts": datetime.now(timezone.utc).isoformat()}
+
+
+app.include_router(auth_router)
+app.include_router(products_router)
+app.include_router(reviews_router)
+app.include_router(orders_router)
+app.include_router(admin_router)
+app.include_router(payments_router)
+app.include_router(webhook_router)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_credentials=True,
+    allow_origins=os.environ.get("CORS_ORIGINS", "*").split(","),
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+async def _ensure_admin():
+    existing = await db.users.find_one({"role": "admin"}, {"_id": 0})
+    if existing:
+        return
+    import uuid
+
+    doc = {
+        "id": str(uuid.uuid4()),
+        "email": ADMIN_EMAIL.lower(),
+        "password_hash": hash_password(ADMIN_PASSWORD),
+        "first_name": "Admin",
+        "last_name": "Ecoandes",
+        "role": "admin",
+        "company": "Ecoandes",
+        "tax_id": None,
+        "phone": None,
+        "approved": True,
+        "created_at": datetime.now(timezone.utc).isoformat(),
+    }
+    await db.users.insert_one(doc)
+    logger.info("Admin user created: %s", ADMIN_EMAIL)
+
+
+async def _ensure_indexes():
+    await db.users.create_index("email", unique=True)
+    await db.products.create_index("sku", unique=True)
+    await db.products.create_index("slug", unique=True)
+    await db.orders.create_index("order_number", unique=True)
+    await db.orders.create_index("email")
+    await db.payment_transactions.create_index("session_id")
+    await db.reviews.create_index([("product_id", 1), ("user_id", 1)], unique=True)
+    await db.reviews.create_index("product_id")
+
+
+async def _seed_products_if_empty():
+    count = await db.products.count_documents({})
+    if count > 0:
+        logger.info("Products already seeded (%d). Skipping.", count)
+        return
+    xml_path = Path(__file__).resolve().parent / "ecoandes.xml"
+    if not xml_path.exists():
+        logger.warning("XML not found at %s; skipping seed.", xml_path)
+        return
+    logger.info("Seeding products from WordPress XML...")
+    products = parse_wordpress_xml(xml_path)
+    if not products:
+        logger.warning("No products parsed from XML.")
+        return
+    import uuid
+
+    now = datetime.now(timezone.utc).isoformat()
+    batch = []
+    featured_assigned = 0
+    for p in products:
+        p["id"] = str(uuid.uuid4())
+        p["created_at"] = now
+        p["updated_at"] = now
+        if featured_assigned < 8 and p["price_retail"] > 0:
+            p["featured"] = True
+            featured_assigned += 1
+        batch.append(p)
+    # insert in one go (ignore duplicates if any)
+    try:
+        await db.products.insert_many(batch, ordered=False)
+    except Exception as e:
+        logger.warning("Some products could not be inserted: %s", e)
+    logger.info("Seeded %d products.", len(batch))
+
+
+@app.on_event("startup")
+async def on_startup():
+    await _ensure_indexes()
+    await _ensure_admin()
+    # run seeding in background so startup isn't blocked
+    asyncio.create_task(_seed_products_if_empty())
+
+
+@app.on_event("shutdown")
+async def on_shutdown():
+    from core.config import client
+
+    client.close()

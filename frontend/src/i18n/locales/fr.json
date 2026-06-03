@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "Langue",
+    "es": "Espagnol",
+    "en": "Anglais",
+    "zh": "Chinois",
+    "fr": "Français",
+    "ja": "Japonais",
+    "it": "Italien",
+    "pt": "Portugais"
+  },
+  "announcement": {
+    "freeShipping": "Livraison gratuite à partir de 50€",
+    "discount": "5€ de RÉDUCTION sur votre première commande · code {{coupon}} (dès 60€ d'achat)"
+  },
+  "nav": {
+    "searchPlaceholder": "Rechercher des produits, catégories, SKU…",
+    "home": "Accueil",
+    "shop": "Boutique",
+    "blog": "Blog",
+    "pro": "Professionnel B2B",
+    "contact": "Contact",
+    "login": "Se connecter",
+    "account": "Mon compte",
+    "adminDashboard": "Tableau de bord admin",
+    "admin": "Admin",
+    "logout": "Se déconnecter",
+    "openMenu": "Ouvrir le menu",
+    "search": "Rechercher",
+    "openCart": "Ouvrir le panier",
+    "close": "Fermer"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Panier vide",
+    "emptyDesc": "Découvrez notre catalogue BIO.",
+    "goShop": "Aller à la boutique",
+    "freeShippingRemaining": "Il vous manque {{amount}} pour bénéficier de la livraison gratuite.",
+    "freeShippingAchieved": "Super ! Votre commande bénéficie de la livraison gratuite.",
+    "subtotal": "Sous-total",
+    "proPrices": "Prix professionnels appliqués.",
+    "taxesNote": "Taxes et frais de port calculés au paiement.",
+    "checkout": "Procéder au paiement",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "remove": "Supprimer"
+  },
+  "cookie": {
+    "badge": "Cookies · RGPD / LSSI-CE",
+    "text": "Nous utilisons nos propres cookies et ceux de tiers à des fins d'analyse et pour vous montrer du contenu personnalisé. Vous pouvez accepter, refuser ou configurer votre choix. Plus d'informations dans notre",
+    "and": "et",
+    "cookiePolicy": "Politique de Cookies",
+    "privacyPolicy": "Politique de Confidentialité",
+    "acceptAll": "Accepter tout",
+    "onlyNecessary": "Uniquement nécessaires",
+    "configure": "Configurer",
+    "preferences": "Préférences en matière de cookies",
+    "necessary": "Nécessaires",
+    "necessaryDesc": "Elles permettent le fonctionnement de base du site (session, panier, langue). Elles ne peuvent pas être désactivées.",
+    "analytics": "Analytiques",
+    "analyticsDesc": "Elles nous aident à comprendre comment le site est utilisé pour améliorer l'expérience (statistiques anonymes).",
+    "marketing": "Marketing",
+    "marketingDesc": "Elles permettent d'afficher du contenu et des recommandations personnalisées. Vous pouvez les désactiver à tout moment.",
+    "saveSelection": "Enregistrer la sélection"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "Écrivez-nous sur WhatsApp",
+    "message": "Bonjour, j'aimerais obtenir plus d'informations sur les produits Ecoandes."
+  },
+  "footer": {
+    "tagline": "Produits écologiques, naturels et en vrac, de l'origine à votre table. Pour les foyers conscients et les professionnels du secteur BIO.",
+    "shop": "Boutique",
+    "catalog": "Catalogue",
+    "proAccount": "Compte Professionnel B2B",
+    "ourBlog": "Notre Blog",
+    "certifications": "Certifications",
+    "about": "À propos de nous",
+    "help": "Aide",
+    "customerService": "Service Client",
+    "contact": "Contact",
+    "faq": "Questions fréquentes",
+    "myAccount": "Mon compte",
+    "legalInfo": "Informations légales",
+    "legalNotice": "Mentions Légales",
+    "cookiePolicy": "Politique de Cookies",
+    "privacyPolicy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "rights": "Productos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "Boutique EcoAndes",
+    "visit": "Visitez notre boutique",
+    "hoursTitle": "Heures d'ouverture",
+    "readyNote": "Nous vous informerons lorsque votre commande sera prête à être retirée.",
+    "viewMaps": "Voir sur Google Maps"
+  },
+  "hours": {
+    "closed": "Fermé",
+    "days": {
+      "mon": "Lundi",
+      "tue": "Mardi",
+      "wed": "Mercredi",
+      "thu": "Jeudi",
+      "fri": "Vendredi",
+      "sat": "Samedi",
+      "sun": "Dimanche"
+    }
+  },
+  "search": {
+    "clear": "Effacer",
+    "searching": "Recherche en cours...",
+    "noResults": "Aucun résultat pour « {{query}} ».",
+    "seeAll": "Voir tous les résultats →"
+  }
+}

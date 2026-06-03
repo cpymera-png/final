@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "言語",
+    "es": "スペイン語",
+    "en": "英語",
+    "zh": "中国語",
+    "fr": "フランス語",
+    "ja": "日本語",
+    "it": "イタリア語",
+    "pt": "ポルトガル語"
+  },
+  "announcement": {
+    "freeShipping": "50€以上のご注文で送料無料",
+    "discount": "初回ご注文で5€割引 · クーポン {{coupon}} (60€以上のご購入)"
+  },
+  "nav": {
+    "searchPlaceholder": "商品、カテゴリー、SKUを検索…",
+    "home": "ホーム",
+    "shop": "ショップ",
+    "blog": "ブログ",
+    "pro": "法人向け B2B",
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "account": "マイアカウント",
+    "adminDashboard": "管理者ダッシュボード",
+    "admin": "管理者",
+    "logout": "ログアウト",
+    "openMenu": "メニューを開く",
+    "search": "検索",
+    "openCart": "カートを開く",
+    "close": "閉じる"
+  },
+  "cart": {
+    "title": "カート",
+    "empty": "カートは空です",
+    "emptyDesc": "当社のBIOカタログをご覧ください。",
+    "goShop": "ショップへ行く",
+    "freeShippingRemaining": "送料無料まであと{{amount}}です。",
+    "freeShippingAchieved": "素晴らしい！ご注文は送料無料です。",
+    "subtotal": "小計",
+    "proPrices": "法人価格が適用されています。",
+    "taxesNote": "税金と送料はチェックアウト時に計算されます。",
+    "checkout": "購入手続きへ",
+    "decrease": "減らす",
+    "increase": "増やす",
+    "remove": "削除"
+  },
+  "cookie": {
+    "badge": "クッキー · RGPD / LSSI-CE",
+    "text": "当社は、分析目的およびパーソナライズされたコンテンツを表示するために、自社およびサードパーティのクッキーを使用しています。お客様は選択を承認、拒否、または設定することができます。詳細については、当社の",
+    "and": "および",
+    "cookiePolicy": "クッキーポリシー",
+    "privacyPolicy": "プライバシーポリシー",
+    "acceptAll": "すべて承認",
+    "onlyNecessary": "必須のみ",
+    "configure": "設定",
+    "preferences": "クッキー設定",
+    "necessary": "必須",
+    "necessaryDesc": "サイトの基本機能（セッション、カート、言語）を有効にします。これらを無効にすることはできません。",
+    "analytics": "分析",
+    "analyticsDesc": "サイトがどのように使用されているかを理解し、エクスペリエンスを向上させるのに役立ちます（匿名統計）。",
+    "marketing": "マーケティング",
+    "marketingDesc": "パーソナライズされたコンテンツやおすすめを表示できるようにします。これらはいつでも無効にできます。",
+    "saveSelection": "選択を保存"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "WhatsAppでお問い合わせください",
+    "message": "Ecoandesの商品について詳しく知りたいです。"
+  },
+  "footer": {
+    "tagline": "原産地から食卓へ、オーガニック、自然派、バルク製品をお届けします。意識の高いご家庭やBIOチャネルのプロフェッショナル向けです。",
+    "shop": "ショップ",
+    "catalog": "カタログ",
+    "proAccount": "B2B法人アカウント",
+    "ourBlog": "当社のブログ",
+    "certifications": "認証",
+    "about": "会社概要",
+    "help": "ヘルプ",
+    "customerService": "カスタマーサービス",
+    "contact": "お問い合わせ",
+    "faq": "よくある質問",
+    "myAccount": "マイアカウント",
+    "legalInfo": "法的情報",
+    "legalNotice": "法的通知",
+    "cookiePolicy": "クッキーポリシー",
+    "privacyPolicy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "rights": "Productos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "EcoAndesストア",
+    "visit": "店舗にお越しください",
+    "hoursTitle": "営業時間",
+    "readyNote": "ご注文の準備ができましたらお知らせいたします。",
+    "viewMaps": "Google Mapsで見る"
+  },
+  "hours": {
+    "closed": "定休日",
+    "days": {
+      "mon": "月曜日",
+      "tue": "火曜日",
+      "wed": "水曜日",
+      "thu": "木曜日",
+      "fri": "金曜日",
+      "sat": "土曜日",
+      "sun": "日曜日"
+    }
+  },
+  "search": {
+    "clear": "クリア",
+    "searching": "検索中...",
+    "noResults": "「{{query}}」の検索結果はありません。",
+    "seeAll": "全ての検索結果を表示 →"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "语言",
+    "es": "西班牙语",
+    "en": "英语",
+    "zh": "中文",
+    "fr": "法语",
+    "ja": "日语",
+    "it": "意大利语",
+    "pt": "葡萄牙语"
+  },
+  "announcement": {
+    "freeShipping": "满50€免运费",
+    "discount": "首单立减5€ · 优惠券 {{coupon}} (购物满60€)"
+  },
+  "nav": {
+    "searchPlaceholder": "搜索商品、分类、SKU…",
+    "home": "首页",
+    "shop": "商店",
+    "blog": "博客",
+    "pro": "B2B专业客户",
+    "contact": "联系我们",
+    "login": "登录",
+    "account": "我的账户",
+    "adminDashboard": "管理员仪表盘",
+    "admin": "管理",
+    "logout": "退出",
+    "openMenu": "打开菜单",
+    "search": "搜索",
+    "openCart": "打开购物车",
+    "close": "关闭"
+  },
+  "cart": {
+    "title": "您的购物车",
+    "empty": "购物车为空",
+    "emptyDesc": "探索我们的BIO产品目录。",
+    "goShop": "前往商店",
+    "freeShippingRemaining": "还差{{amount}}即可享受免费配送。",
+    "freeShippingAchieved": "太棒了！您的订单享受免费配送。",
+    "subtotal": "小计",
+    "proPrices": "已应用专业价格。",
+    "taxesNote": "税费和运费将在结账时计算。",
+    "checkout": "去结算",
+    "decrease": "减少",
+    "increase": "增加",
+    "remove": "移除"
+  },
+  "cookie": {
+    "badge": "Cookie · RGPD / LSSI-CE",
+    "text": "我们使用第一方和第三方Cookie用于分析目的并向您展示个性化内容。您可以接受、拒绝或配置您的选择。更多信息请参阅我们的",
+    "and": "和",
+    "cookiePolicy": "Cookie政策",
+    "privacyPolicy": "隐私政策",
+    "acceptAll": "全部接受",
+    "onlyNecessary": "仅接受必要项",
+    "configure": "配置",
+    "preferences": "Cookie偏好设置",
+    "necessary": "必要Cookie",
+    "necessaryDesc": "它们允许网站的基本功能（会话、购物车、语言）正常运行。无法禁用。",
+    "analytics": "分析Cookie",
+    "analyticsDesc": "它们帮助我们了解网站的使用方式，以改善用户体验（匿名统计）。",
+    "marketing": "营销Cookie",
+    "marketingDesc": "它们允许显示个性化内容和推荐。您可以随时禁用它们。",
+    "saveSelection": "保存选择"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "通过WhatsApp联系我们",
+    "message": "您好，我想了解更多关于Ecoandes产品的信息。"
+  },
+  "footer": {
+    "tagline": "从源头到餐桌的生态、天然散装产品。为有意识的家庭和BIO渠道专业人士服务。",
+    "shop": "商店",
+    "catalog": "产品目录",
+    "proAccount": "B2B专业账户",
+    "ourBlog": "我们的博客",
+    "certifications": "认证",
+    "about": "关于我们",
+    "help": "帮助",
+    "customerService": "客户服务",
+    "contact": "联系我们",
+    "faq": "常见问题",
+    "myAccount": "我的账户",
+    "legalInfo": "法律信息",
+    "legalNotice": "法律声明",
+    "cookiePolicy": "Cookie政策",
+    "privacyPolicy": "隐私政策",
+    "terms": "一般条款和条件",
+    "rights": "Productos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "EcoAndes 商店",
+    "visit": "到店访问我们",
+    "hoursTitle": "营业时间",
+    "readyNote": "您的订单准备好取货后，我们将通知您。",
+    "viewMaps": "在Google Maps上查看"
+  },
+  "hours": {
+    "closed": "休息",
+    "days": {
+      "mon": "周一",
+      "tue": "周二",
+      "wed": "周三",
+      "thu": "周四",
+      "fri": "周五",
+      "sat": "周六",
+      "sun": "周日"
+    }
+  },
+  "search": {
+    "clear": "清除",
+    "searching": "搜索中...",
+    "noResults": "没有与“{{query}}”相关的结果。",
+    "seeAll": "查看所有结果 →"
+  }
+}

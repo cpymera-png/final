@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "Language",
+    "es": "Spanish",
+    "en": "English",
+    "zh": "Chinese",
+    "fr": "French",
+    "ja": "Japanese",
+    "it": "Italian",
+    "pt": "Portuguese"
+  },
+  "announcement": {
+    "freeShipping": "Free Shipping from 50€",
+    "discount": "5€ OFF on your first order · coupon {{coupon}} (min. 60€ purchase)"
+  },
+  "nav": {
+    "searchPlaceholder": "Search products, categories, SKU…",
+    "home": "Home",
+    "shop": "Shop",
+    "blog": "Blog",
+    "pro": "B2B Professional",
+    "contact": "Contact",
+    "login": "Login",
+    "account": "My account",
+    "adminDashboard": "Admin Dashboard",
+    "admin": "Admin",
+    "logout": "Logout",
+    "openMenu": "Open menu",
+    "search": "Search",
+    "openCart": "Open cart",
+    "close": "Close"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Cart is empty",
+    "emptyDesc": "Discover our BIO catalog.",
+    "goShop": "Go to shop",
+    "freeShippingRemaining": "You need {{amount}} more for free shipping.",
+    "freeShippingAchieved": "Great! Your order qualifies for free shipping.",
+    "subtotal": "Subtotal",
+    "proPrices": "Professional prices applied.",
+    "taxesNote": "Taxes and shipping calculated at checkout.",
+    "checkout": "Checkout",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "remove": "Remove"
+  },
+  "cookie": {
+    "badge": "Cookies · RGPD / LSSI-CE",
+    "text": "We use our own and third-party cookies for analytical purposes and to show you personalized content. You can accept, reject, or configure your choice. More information in our",
+    "and": "and",
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy",
+    "acceptAll": "Accept all",
+    "onlyNecessary": "Only necessary",
+    "configure": "Configure",
+    "preferences": "Cookie preferences",
+    "necessary": "Necessary",
+    "necessaryDesc": "Enable basic site functionality (session, cart, language). Cannot be disabled.",
+    "analytics": "Analytics",
+    "analyticsDesc": "Help us understand how the site is used to improve the experience (anonymous statistics).",
+    "marketing": "Marketing",
+    "marketingDesc": "Enable personalized content and recommendations. You can disable them at any time.",
+    "saveSelection": "Save selection"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "Chat with us on WhatsApp",
+    "message": "Hello, I would like more information about Ecoandes products."
+  },
+  "footer": {
+    "tagline": "Organic, natural, and bulk products brought from the source to your table. For conscious households and BIO channel professionals.",
+    "shop": "Shop",
+    "catalog": "Catalog",
+    "proAccount": "B2B Professional Account",
+    "ourBlog": "Our Blog",
+    "certifications": "Certifications",
+    "about": "About Us",
+    "help": "Help",
+    "customerService": "Customer Service",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "myAccount": "My Account",
+    "legalInfo": "Legal Info",
+    "legalNotice": "Legal Notice",
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "rights": "Productos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "EcoAndes Store",
+    "visit": "Visit us in store",
+    "hoursTitle": "Opening hours",
+    "readyNote": "We will notify you when your order is ready for pickup.",
+    "viewMaps": "View on Google Maps"
+  },
+  "hours": {
+    "closed": "Closed",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    }
+  },
+  "search": {
+    "clear": "Clear",
+    "searching": "Searching...",
+    "noResults": "No results for “{{query}}”.",
+    "seeAll": "See all results →"
+  }
+}

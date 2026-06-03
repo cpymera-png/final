@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "Lingua",
+    "es": "Spagnolo",
+    "en": "Inglese",
+    "zh": "Cinese",
+    "fr": "Francese",
+    "ja": "Giapponese",
+    "it": "Italiano",
+    "pt": "Portoghese"
+  },
+  "announcement": {
+    "freeShipping": "Spedizione Gratuita a partire da 50€",
+    "discount": "5€ DI SCONTO sul tuo primo ordine · coupon {{coupon}} (acquisto minimo 60€)"
+  },
+  "nav": {
+    "searchPlaceholder": "Cerca prodotti, categorie, SKU…",
+    "home": "Home",
+    "shop": "Negozio",
+    "blog": "Blog",
+    "pro": "Professionale B2B",
+    "contact": "Contatti",
+    "login": "Accedi",
+    "account": "Il mio account",
+    "adminDashboard": "Dashboard admin",
+    "admin": "Admin",
+    "logout": "Esci",
+    "openMenu": "Apri menu",
+    "search": "Cerca",
+    "openCart": "Apri carrello",
+    "close": "Chiudi"
+  },
+  "cart": {
+    "title": "Il tuo carrello",
+    "empty": "Carrello vuoto",
+    "emptyDesc": "Scopri il nostro catalogo BIO.",
+    "goShop": "Vai al negozio",
+    "freeShippingRemaining": "Mancano {{amount}} per la spedizione gratuita.",
+    "freeShippingAchieved": "Ottimo! Il tuo ordine include la spedizione gratuita.",
+    "subtotal": "Subtotale",
+    "proPrices": "Prezzi professionali applicati.",
+    "taxesNote": "Tasse e spedizione calcolate al checkout.",
+    "checkout": "Finalizza l'acquisto",
+    "decrease": "Diminuisci",
+    "increase": "Aumenta",
+    "remove": "Rimuovi"
+  },
+  "cookie": {
+    "badge": "Cookie · RGPD / LSSI-CE",
+    "text": "Utilizziamo cookie propri e di terze parti per scopi analitici e per mostrarti contenuti personalizzati. Puoi accettare, rifiutare o configurare la tua scelta. Maggiori informazioni nella nostra",
+    "and": "e",
+    "cookiePolicy": "Informativa sui Cookie",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "acceptAll": "Accetta tutti",
+    "onlyNecessary": "Solo necessari",
+    "configure": "Configura",
+    "preferences": "Preferenze sui cookie",
+    "necessary": "Necessari",
+    "necessaryDesc": "Consentono il funzionamento di base del sito (sessione, carrello, lingua). Non possono essere disattivati.",
+    "analytics": "Analitici",
+    "analyticsDesc": "Ci aiutano a capire come viene utilizzato il sito per migliorare l'esperienza (statistiche anonime).",
+    "marketing": "Marketing",
+    "marketingDesc": "Consentono di mostrare contenuti e raccomandazioni personalizzate. Puoi disattivarli in qualsiasi momento.",
+    "saveSelection": "Salva selezione"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "Scrivici su WhatsApp",
+    "message": "Ciao, vorrei maggiori informazioni sui prodotti Ecoandes."
+  },
+  "footer": {
+    "tagline": "Prodotti biologici, naturali e sfusi direttamente dall'origine alla tua tavola. Per case consapevoli e professionisti del settore BIO.",
+    "shop": "Negozio",
+    "catalog": "Catalogo",
+    "proAccount": "Account Professionale B2B",
+    "ourBlog": "Il nostro Blog",
+    "certifications": "Certificazioni",
+    "about": "Chi Siamo",
+    "help": "Aiuto",
+    "customerService": "Servizio Clienti",
+    "contact": "Contatti",
+    "faq": "Domande frequenti",
+    "myAccount": "Il mio account",
+    "legalInfo": "Informazioni legali",
+    "legalNotice": "Note Legali",
+    "cookiePolicy": "Informativa sui Cookie",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "terms": "Condizioni Generali",
+    "rights": "Productos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "Negozio EcoAndes",
+    "visit": "Vieni a trovarci in negozio",
+    "hoursTitle": "Orari di apertura",
+    "readyNote": "Ti avviseremo quando il tuo ordine sarà pronto per il ritiro.",
+    "viewMaps": "Visualizza su Google Maps"
+  },
+  "hours": {
+    "closed": "Chiuso",
+    "days": {
+      "mon": "Lunedì",
+      "tue": "Martedì",
+      "wed": "Mercoledì",
+      "thu": "Giovedì",
+      "fri": "Venerdì",
+      "sat": "Sabato",
+      "sun": "Domenica"
+    }
+  },
+  "search": {
+    "clear": "Pulisci",
+    "searching": "Ricerca in corso...",
+    "noResults": "Nessun risultato per “{{query}}”.",
+    "seeAll": "Vedi tutti i risultati →"
+  }
+}

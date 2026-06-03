@@ -1,0 +1,116 @@
+{
+  "lang": {
+    "label": "Idioma",
+    "es": "Espanhol",
+    "en": "Inglês",
+    "zh": "Chinês",
+    "fr": "Francês",
+    "ja": "Japonês",
+    "it": "Italiano",
+    "pt": "Português"
+  },
+  "announcement": {
+    "freeShipping": "Envio Grátis a partir de 50€",
+    "discount": "5€ DESC. na sua primeira encomenda · cupão {{coupon}} (+60€ de compra)"
+  },
+  "nav": {
+    "searchPlaceholder": "Pesquisar produtos, categorias, SKU…",
+    "home": "Início",
+    "shop": "Loja",
+    "blog": "Blog",
+    "pro": "Profissional B2B",
+    "contact": "Contacto",
+    "login": "Iniciar sessão",
+    "account": "A minha conta",
+    "adminDashboard": "Dashboard de administrador",
+    "admin": "Admin",
+    "logout": "Sair",
+    "openMenu": "Abrir menu",
+    "search": "Pesquisar",
+    "openCart": "Abrir carrinho",
+    "close": "Fechar"
+  },
+  "cart": {
+    "title": "O seu carrinho",
+    "empty": "Carrinho vazio",
+    "emptyDesc": "Descubra o nosso catálogo BIO.",
+    "goShop": "Ir para a loja",
+    "freeShippingRemaining": "Faltam-lhe {{amount}} para ter envio grátis.",
+    "freeShippingAchieved": "Ótimo! A sua encomenda tem envio grátis.",
+    "subtotal": "Subtotal",
+    "proPrices": "Preços profissionais aplicados.",
+    "taxesNote": "Impostos e portes de envio calculados no checkout.",
+    "checkout": "Finalizar compra",
+    "decrease": "Diminuir",
+    "increase": "Aumentar",
+    "remove": "Remover"
+  },
+  "cookie": {
+    "badge": "Cookies · RGPD / LSSI-CE",
+    "text": "Usamos cookies próprias e de terceiros para fins analíticos e para lhe mostrar conteúdo personalizado. Pode aceitar, rejeitar ou configurar a sua escolha. Mais informações na nossa",
+    "and": "e",
+    "cookiePolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidade",
+    "acceptAll": "Aceitar todas",
+    "onlyNecessary": "Apenas necessárias",
+    "configure": "Configurar",
+    "preferences": "Preferências de cookies",
+    "necessary": "Necessárias",
+    "necessaryDesc": "Permitem o funcionamento básico do site (sessão, carrinho, idioma). Não podem ser desativadas.",
+    "analytics": "Analíticas",
+    "analyticsDesc": "Ajudam-nos a entender como o site é usado para melhorar a experiência (estatísticas anónimas).",
+    "marketing": "Marketing",
+    "marketingDesc": "Permitem mostrar conteúdo e recomendações personalizadas. Pode desativá-las a qualquer momento.",
+    "saveSelection": "Guardar seleção"
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "aria": "Envie-nos mensagem pelo WhatsApp",
+    "message": "Olá, gostaria de obter mais informações sobre os produtos Ecoandes."
+  },
+  "footer": {
+    "tagline": "Produtos ecológicos, naturais e a granel trazidos da origem para a sua mesa. Para lares conscientes e profissionais do canal BIO.",
+    "shop": "Loja",
+    "catalog": "Catálogo",
+    "proAccount": "Conta Profissional B2B",
+    "ourBlog": "O Nosso Blog",
+    "certifications": "Certificações",
+    "about": "Sobre Nós",
+    "help": "Ajuda",
+    "customerService": "Apoio ao Cliente",
+    "contact": "Contacto",
+    "faq": "Perguntas Frequentes",
+    "myAccount": "A minha conta",
+    "legalInfo": "Informação legal",
+    "legalNotice": "Aviso Legal",
+    "cookiePolicy": "Política de Cookies",
+    "privacyPolicy": "Política de Privacidade",
+    "terms": "Termos e Condições",
+    "rights": "Produtos Ecoandes S.L. · productosecoandes.com"
+  },
+  "store": {
+    "name": "Loja EcoAndes",
+    "visit": "Visite-nos na loja",
+    "hoursTitle": "Horário de atendimento",
+    "readyNote": "Avisar-lhe-emos quando a sua encomenda estiver pronta para recolha.",
+    "viewMaps": "Ver no Google Maps"
+  },
+  "hours": {
+    "closed": "Encerrado",
+    "days": {
+      "mon": "Segunda-feira",
+      "tue": "Terça-feira",
+      "wed": "Quarta-feira",
+      "thu": "Quinta-feira",
+      "fri": "Sexta-feira",
+      "sat": "Sábado",
+      "sun": "Domingo"
+    }
+  },
+  "search": {
+    "clear": "Limpar",
+    "searching": "A Pesquisar...",
+    "noResults": "Sem resultados para “{{query}}”.",
+    "seeAll": "Ver todos os resultados →"
+  }
+}
